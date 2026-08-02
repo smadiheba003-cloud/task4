@@ -1,0 +1,32 @@
+body {
+  font-family: Georgia, serif;
+  padding: 20px;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* الفقرة البرتقالية */
+.para-orange {
+  color: #e67e22;
+  margin-bottom: 20px;
+}
+
+/* الفقرة العادية */
+.para-normal {
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+/* الفقرة مع خلفية الصورة الضبابية */
+.para-bg {
+  /* رابط صورة خلفية ضبابية تشبه الصورة المطلوب تطبيقها */
+  background-image: url('https://picsum.photos/id/1015/800/200?blur=4');
+  background-size: cover;
+  background-position: center;
+  padding: 15px;
+  color: #000000;
+}
